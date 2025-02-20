@@ -7,37 +7,37 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="icon" href="./css/img/iconePizza.png">
-
-        <title>Tela Cadastro</title>
+        <link rel="icon" href="./img2/iconePizza.png">
         <link rel="stylesheet" href="./css/style.css">
+        <title>Tela Cadastro</title>
+        
     </head>
     <body>
-        <form > 
+       
             <div id="cadastro">
-                <div class="caixa">
+                
+                    <div class="logo">
+                        <img src="./img2/logoSoffia.png" alt="logo">
+                    </div>
+                   
 
-                    <img src="./css/img/logoSoffia.png" alt="logo">
-
-                    <div class="nome">
-                        <input type="text" placeholder="Nome">
-                    </div>
-                    <div class="email">
-                        <input type="email" placeholder="E-mail">
-                    </div>
-                    <div class="senha" >
-                        <input type="password" placeholder="Senha">
-                    </div>
-                    <div class="senha" >
-                        <input type="password" placeholder="Confirme a sua Senha">
-                    </div>
-                    <div class="registrar" >
-                        <p>Já tem uma conta? <a href="./index.html">Entre aqui.</a></p>
-                        <input type="submit" value="Registrar">
-                    </div>
-                </div>
+                    <form class="cadastro-form"">
+                        <input type="text" placeholder="Nome" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="rua" placeholder="Rua" required>
+                        <input type="bairro" placeholder="Bairro" required>
+                        <input type="numero" placeholder="Número" required>
+                        <input type="password" placeholder="Senha" required>
+                        <input type="password" placeholder="Confirme senha" required>
+                        <div class="registrar" >
+                            <p>Já tem uma conta? <a href="./index.html">Entre aqui.</a></p>
+                        </div>
+                        <button type="submit">Cadastrar</button>
+                    </form>
+                   
+               
              </div>
-        </form>
+       
        
     </body>
 </html>

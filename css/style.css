@@ -2,17 +2,23 @@ body {
     /* Reset */
     padding: 0;
     margin: 0;
+    background-image: url(/img2/imagemFundoForno.png);
+    background-repeat: no-repeat;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
     background-color: #1b1c30;
     color: #fff;
-    background-image: url(./img/imagemFundoForno.png);
-    background-repeat: no-repeat;
+    
     
 }
 
-.caixa img {
+.logo img {
     width: 200px;
+
 }
 
 
@@ -20,23 +26,27 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding-top: 200px;
+    padding: 15px;
+    /* background-color: #3f1d02; */
+    width:100%;
+    max-width: 300px;
+    border-radius: 30px;
 }
 
 
-.nome input, .email input, .senha input {
-    border-radius: 15px ;
+.cadastro-form input {
+    border-radius: 10px ;
     border: none;
     width: 250px;
     height: 35px;
     padding-left: 15px;
-    background-color: #f8f8f8;
-    color: #9e9696;
-    
+    background-color: #4d443f;
+    color: #d8d8d8;
+    margin-top: 15px;
 }
 
-.senha input, .email input { 
-    margin-top: 15px;
+input::placeholder {
+    color: #d8d8d8;
 }
 
 a {
@@ -44,11 +54,11 @@ a {
     color: rgb(255, 242, 0);
 }
 
-.registrar input {
+.cadastro-form button {
     cursor: pointer;
     width: 120px;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     background-color: #ffe100;
     color: #1b1c30;
